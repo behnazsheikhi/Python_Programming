@@ -1,0 +1,10 @@
+file=open('sampleFile.txt','r')
+result=file.read()
+result2=file.readlines()
+print(result)
+print(result2)
+# another way
+file=open('sampleFile.txt','r').read()
+file2=open('sampleFile.txt','r').readlines()
+print(file)
+print(file2)

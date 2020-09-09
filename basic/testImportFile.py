@@ -1,0 +1,2 @@
+import testMain
+testMain.fun()
